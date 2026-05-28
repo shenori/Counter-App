@@ -1,0 +1,267 @@
+.our-story {
+    background: #faf8f4;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    color: #2a2118;
+}
+
+/* Hero */
+.story-hero {
+    background: #2a2118;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.story-hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-tag {
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: #8c6d3f;
+}
+
+.story-hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 300;
+    color: #faf8f4;
+    margin: 0.6rem 0 1rem;
+    line-height: 1.1;
+}
+
+.story-hero-title em {
+    font-style: italic;
+    color: #c9a96e;
+}
+
+.divider {
+    width: 40px;
+    height: 0.5px;
+    background: #8c6d3f;
+    margin: 0 auto;
+}
+
+/* Main story */
+.story-section {
+    padding: 5rem 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.story-image-box {
+    background: #e8ddd0;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-image-inner {
+    width: 68%;
+    height: 68%;
+    background: #b89a74;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.story-image-icon {
+    font-size: 48px;
+    opacity: 0.8;
+}
+
+.story-image-caption {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #faf8f4;
+    letter-spacing: 0.04em;
+}
+
+.story-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #2a2118;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    border: none;
+    padding: 0;
+}
+
+.story-divider {
+    margin: 0 0 1.5rem;
+}
+
+.story-body {
+    font-size: 14px;
+    color: #5c4a30;
+    line-height: 1.95;
+    margin-bottom: 1.2rem;
+}
+
+.story-signature {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #8c6d3f;
+    margin-top: 1.5rem;
+}
+
+/* Values */
+.values-section {
+    padding: 5rem 3rem;
+    background: #f3ede4;
+    text-align: center;
+}
+
+.values-header {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: #2a2118;
+    margin: 0.5rem 0;
+}
+
+.section-title em {
+    font-style: italic;
+    color: #8c6d3f;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.value-card {
+    background: #faf8f4;
+    border: 0.5px solid #d6cec0;
+    padding: 2rem 1.5rem;
+    transition: border-color 0.2s;
+}
+
+.value-card:hover {
+    border-color: #8c6d3f;
+}
+
+.value-icon {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.value-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a2118;
+    margin-bottom: 0.6rem;
+}
+
+.value-description {
+    font-size: 13px;
+    color: #8c7660;
+    line-height: 1.75;
+    font-style: italic;
+}
+
+/* Timeline */
+.timeline-section {
+    padding: 5rem 3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.timeline-header {
+    margin-bottom: 3rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+    text-align: left;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 90px;
+    top: 0;
+    bottom: 0;
+    width: 0.5px;
+    background: #d6cec0;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 80px 20px 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.5px solid #e8e0d4;
+}
+
+.timeline-year {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #8c6d3f;
+    text-align: right;
+}
+
+.timeline-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #8c6d3f;
+    border: 2px solid #faf8f4;
+    outline: 0.5px solid #8c6d3f;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.timeline-event {
+    font-size: 14px;
+    color: #2a2118;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .story-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .story-hero-title {
+        font-size: 38px;
+    }
+
+    .timeline::before {
+        left: 70px;
+    }
+}
