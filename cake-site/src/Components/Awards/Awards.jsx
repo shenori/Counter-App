@@ -4,25 +4,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "CrackCode",
-      subtitle: "Gamified Learning Platform",
-      description: "A full-stack gamified learning platform that revolutionizes coding education through interactive experiences. Developed both frontend and backend components using React for a dynamic user interface and Node.js with Express for robust server-side functionality. The platform offers comprehensive learning paths across Python, JavaScript, Java, and C++ with hands-on coding challenges, real-time code execution, and instant feedback systems. Implemented MongoDB for efficient data management of user progress, course content, and achievements. Key features include user authentication with JWT, personalized learning dashboards, progress tracking with visual analytics, interactive code editors, and gamification elements like badges, points, and skill-based assessments. The responsive design ensures seamless learning experiences across desktop and mobile devices, while the RESTful API architecture enables smooth communication between frontend and backend services.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "JWT", "RESTful API"],
-      year: "2025 - Present",
-      type: "Group Project",
-      status: "Completed",
+      title: "Best Independent Café",
+      description: "National Specialty Coffee Awards — voted best independent café in the country for three consecutive years.",
+      year: "2021 · 2022 · 2023"
     },
     {
       id: 2,
-      title: "Inventory Management System",
-      subtitle: "Internal Tool — Ceyntics Systems (Pvt) Ltd",
-      description:
-        "A secure internal inventory management system built for Ceyntics Systems. Features role-based access control, item tracking with borrow/return flow, storage hierarchy management, and a full audit log trail. Deployed on Railway (backend) and Vercel (frontend).",
-      technologies: ["Next.js", "Laravel", "PostgreSQL", "Sanctum"],
-      year: "2026",
-      type: "Individual Project",
-      status: "Completed",
-      link: "https://inventory-frontend-weld-three.vercel.app",
+      title: "Michelin Bib Gourmand",
+      description: "ecognised three years running for outstanding quality and exceptional value in our brunch programme.",
+      year: "2021 · 2022 · 2023"
     },
     {
       id: 3,
