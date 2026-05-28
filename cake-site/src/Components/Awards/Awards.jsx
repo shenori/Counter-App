@@ -1,4 +1,4 @@
-import "./Project.css";
+import "./Awards.css";
 
 const Projects = () => {
   const projects = [
